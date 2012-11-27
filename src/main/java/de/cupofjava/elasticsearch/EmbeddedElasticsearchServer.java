@@ -33,7 +33,6 @@ public class EmbeddedElasticsearchServer {
                 .local(true)
                 .settings(elasticsearchSettings.build())
                 .node();
-
     }
 
     public Client getClient() {
